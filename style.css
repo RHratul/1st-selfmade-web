@@ -11,19 +11,45 @@ border-image: linear-gradient(blue, cyan);
 border-image-slice: 1;
 padding-left: 20px;
 }
-
-.color-head{
-    color: cyan
-}
 .scnd-head{
     font-family: 'Satisfy', cursive;
     color: rgb(190, 47, 47);
     font-size: 50px;
     text-align: center;
 }
+
+.color-head{
+    color: cyan
+}
+.thrd-head{
+    font-size: 50px;
+    color: blue;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+}
+.thrd-headtwo{
+    font-size: 50px;
+    color: cyan;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+}
+.frth-head{
+    font-size: 50px;
+    color: cyan;
+    text-align: left;
+    margin-bottom: 0;
+    font-family: 'Play', sans-serif;
+}
+.frth-headtwo{
+    font-size: 50px;
+    color: blue;
+    text-align: left;
+    margin-bottom: 0;
+    font-family: 'Play', sans-serif;
+}
 p{
     font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 .link-button{
     color: white;
@@ -37,6 +63,13 @@ p{
 .fst-sec{
     display: flex;
 }
+
+.thrd-sec{
+    display: flex;
+}
+.frth-sec{
+    display: flex;
+}
 .scnd-div{
     display: flex;
 }
@@ -45,22 +78,106 @@ p{
     width: 50%;
     padding-left: 7%;
 }
-.trio-item{
-    width: 30%;
-    padding-left: 5%;
-    text-align: center;
-}
 .half-size img{
     width: 70%;
 }
+.half-sizetwo{
+    width: 35%;
+    padding-left: 7%;
+}
+.half-sizetwo img{
+    width:100% ;
+    margin-top: 35%;
+}
+.half-sizetwond{
+    width:65% ;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 8%;
+
+}
+.half-sizetre{
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 4%;
+    margin-top: 10%;
+}
+.half-sizetrend{
+    width: 50%;
+    margin-top: 10%;
+}
+.half-sizetrend img{
+    width: 60%;
+}
+.trio-item-one{
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 15px;
+    text-align: left;
+}
+.trio-item-one img{
+    width: 40%;
+}
+.trio-item-two{
+    width: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    background-color: salmon;
+    border-radius: 15px;
+    text-align: left;
+}
+.trio-item-two img{
+    width: 40%;
+}
+.trio-item-three{
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: palegoldenrod;
+    border-radius: 15px;
+    text-align: left;
+}
+.trio-item-three img{
+    width: 40%;
+}    
 .year{
     color: rgb(255, 187, 0);
+}
+.us{
+    color: rgb(14, 105, 180);
+}
+.lim{
+    color: black;
+}
+.twen{
+    color: blue;
+}
+.gbl{
+    color: black;
 }
 .trio-head{
     font-size: 40px;
     font-family: 'Righteous', cursive;
-    
+
 }
 .gray{
-    color: rgb(70, 66, 66);
+    color: rgb(55, 58, 63);
+}
+#vn{
+    color: rgb(9, 47, 83);
+}
+#mn{
+    color: rgb(71, 3, 3);
+}
+#gl{
+    color: rgb(233, 172, 7);
 }
